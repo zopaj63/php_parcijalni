@@ -1,6 +1,6 @@
 # PHP osnove - parcijalni ispit
 
-##Zadatak
+## Zadatak
 - kreirati aplikaciju koja će iz datoteke *words.json* u tablicu ispisati sve riječi koje su analizirane
 - kreirati obrazac kroz koji će se unositi nova riječ
 - unesenu riječ treba obraditi na način:
