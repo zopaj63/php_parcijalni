@@ -47,7 +47,7 @@
             }
 
             $words[]=$newWord;
-            $wordsJson=json_encode($words);
+            $wordsJson=json_encode($words, JSON_PRETTY_PRINT);
 
             if(file_put_contents("words.json", $wordsJson) !== false)
             {
