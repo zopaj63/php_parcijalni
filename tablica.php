@@ -15,10 +15,10 @@
         foreach ($rijeci as $rijec)
         {
             echo "<tr>";
-                echo "<td>".$rijec["word"]."</td>";
-                echo "<td>".$rijec["word"]."</td>";
-                echo "<td>".$rijec["word"]."</td>";
-                echo "<td>".$rijec["word"]."</td>";
+                echo "<td>".$rijec["rijec"]."</td>";
+                echo "<td>".$rijec["brojSlova"]."</td>";
+                echo "<td>".$rijec["brojSamoglasnika"]."</td>";
+                echo "<td>".$rijec["brojSuglasnika"]."</td>";
             echo "</tr>";
         };
     ?>
