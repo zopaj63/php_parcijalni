@@ -1,0 +1,38 @@
+[
+    {
+        "rijec": "argaerg",
+        "brojSlova": 7,
+        "brojSamoglasnika": 3,
+        "brojSuglasnika": 4
+    },
+    {
+        "rijec": "hhhh",
+        "brojSlova": 4,
+        "brojSamoglasnika": 0,
+        "brojSuglasnika": 4
+    },
+    {
+        "rijec": "ererer",
+        "brojSlova": 6,
+        "brojSamoglasnika": 3,
+        "brojSuglasnika": 3
+    },
+    {
+        "rijec": "oo",
+        "brojSlova": 2,
+        "brojSamoglasnika": 2,
+        "brojSuglasnika": 0
+    },
+    {
+        "rijec": "rtrtrtr",
+        "brojSlova": 7,
+        "brojSamoglasnika": 0,
+        "brojSuglasnika": 7
+    },
+    {
+        "rijec": "oikl",
+        "brojSlova": 4,
+        "brojSamoglasnika": 2,
+        "brojSuglasnika": 2
+    }
+]
