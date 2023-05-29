@@ -52,6 +52,7 @@
             if(file_put_contents("words.json", $wordsJson) !== false)
             {
                 echo "JSON uspješno stvoren";
+                header('Location: php-ispit.php');
             }
             else
             {
