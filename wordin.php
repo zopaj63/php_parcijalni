@@ -1,4 +1,36 @@
 <?php
+
+    // funkcije za brojanje slova
+    function vowels($word)
+    {
+        //broj samoglasnika
+        $samoglasnici=["a", "e", "i", "o", "u"];
+        $number=0;
+        for($i=0; $i<strlen($word); $i++)
+        {
+            if (in_array($word[$i], $samoglasnici))
+            {
+                $number++;
+            }
+        }
+        return $number;
+    }
+
+    function consonants($word)
+    {
+        //broj suglasnika
+        $suglasnici=["b","c","č","ć","d","đ","e","f","g","h","j","k","l","m","n","p","q","r","s","š","t","v","z","ž","x","y"];
+        $number=0;
+        for($i=0; $i<strlen($word); $i++)
+        {
+            if (in_array($word[$i], $suglasnici))
+            {
+                $number++;
+            }
+        }
+        return $number;
+    }
+
     // podaci s forme u php-ispit.php
 
     if (isset($_POST["word"]))
@@ -8,27 +40,10 @@
         if(!empty($word))
         {
             $word=strtolower($word);
-            //broj slova
+
             $numberOfLetters=strlen($word);
-
-            //broj samoglasnika
-            $samoglasnici=["a", "e", "i", "o", "u"];
-            $numberOfVowels=0;
-            for($i=0; $i<$numberOfLetters; $i++)
-            {
-                if (in_array($word[$i], $samoglasnici))
-                {
-                    $numberOfVowels++;
-                }
-            }
-
-            //broj suglasnika
-            $numberOfConsonants=$numberOfLetters-$numberOfVowels;
-
-//echo $word;
-//echo $numberOfLetters;
-//echo $numberOfVowels;
-//echo $numberOfConsonants;
+            $numberOfVowels=vowels($word);
+            $numberOfConsonants=consonants($word);
 
             //upis u json datoteku words.json
             $newWord=array(

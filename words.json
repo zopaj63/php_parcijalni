@@ -34,5 +34,47 @@
         "brojSlova": 4,
         "brojSamoglasnika": 2,
         "brojSuglasnika": 2
+    },
+    {
+        "rijec": "luggljlkb\u010dohl",
+        "brojSlova": 14,
+        "brojSamoglasnika": 2,
+        "brojSuglasnika": 12
+    },
+    {
+        "rijec": "ew erg reg",
+        "brojSlova": 10,
+        "brojSamoglasnika": 3,
+        "brojSuglasnika": 7
+    },
+    {
+        "rijec": "hhh",
+        "brojSlova": 3,
+        "brojSamoglasnika": 0,
+        "brojSuglasnika": 3
+    },
+    {
+        "rijec": "zoz",
+        "brojSlova": 3,
+        "brojSamoglasnika": 1,
+        "brojSuglasnika": 2
+    },
+    {
+        "rijec": "\u010d",
+        "brojSlova": 2,
+        "brojSamoglasnika": 0,
+        "brojSuglasnika": 0
+    },
+    {
+        "rijec": "\u0107",
+        "brojSlova": 2,
+        "brojSamoglasnika": 0,
+        "brojSuglasnika": 0
+    },
+    {
+        "rijec": "\u0111",
+        "brojSlova": 2,
+        "brojSamoglasnika": 0,
+        "brojSuglasnika": 0
     }
 ]
